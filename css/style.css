@@ -23,20 +23,14 @@ header {
     background-color: #19422C;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
-}
-
-.headerIndex{
-    display: flex;
     justify-content: end;
+
 }
+
 
 .logoHeader{
-    width: 400px;
-    margin-left:  100px;
-    margin-right: 100px;
-
+    width: 200px;
+    margin-right: 200px;
 }
 
 .navbarNav{
@@ -90,7 +84,8 @@ main{
 }
 
 .imagenLogo{
-    width: 80%;
+    width: 100%;
+    padding: 90px;
 }
 
 h1{
@@ -297,11 +292,11 @@ a {
     padding: 10px 0px;
 } 
 
-.logoHeader {
-    width: 250px;
-    margin-left:  50px;
-    margin-right: 50px;
+.logoHeader{
+    width: 200px;
+    margin-right: 200px;
 }
+
 
 
 /*---MAIN---*/ 
@@ -326,12 +321,21 @@ h2 {
 
 
 @media (max-width: 768px){
-    
+.imagenLogo{
+    width: 100%;
+    padding: 25px;
+}
+
+.logoHeader{
+    width: 200px;
+    margin-right: 0px;
+}    
+
 .tituloIndex {
     font-size: 24px;
 }
     
-    .descripcionServicios {
+.descripcionServicios {
     font-size: 16px;
 }
     
@@ -350,6 +354,10 @@ h2 {
     
 .imgFooterLogo {
         width: 70px;    
+}
+
+.botonEnviar{
+    width: 50%;
 }
 
 }
