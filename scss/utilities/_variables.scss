@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "robotoReg";
+    src: url(../asset/fonts/Roboto-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "robotoBold";
+    src: url(../asset/fonts/Roboto-Bold.ttf);
+}
+
+$colorprimario: #19422C;
+$colorsecundario: #3AB54A;
+$colortexto: #686868;
+$colorboton: #719071;
+$background-color: #f9f9f9;
+$font-family-regular: "robotoReg";
+$font-family-bold: "robotoBold";

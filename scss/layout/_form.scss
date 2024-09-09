@@ -1,0 +1,29 @@
+form {
+    display: inline-flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 10% 10%;
+    padding: 10%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.botonEnviar{
+        background-color: $colorboton;
+        color: white;
+        margin: 50px;
+        width: 20%;
+        border-radius: 8px;
+    }
+.sectionForms {
+        margin: 80px;
+    }
+    
+.textoForms {
+        margin: 10px;
+        padding: 20px;
+    }
+    
+.imgForms {
+        padding-top: 40px;
+    }

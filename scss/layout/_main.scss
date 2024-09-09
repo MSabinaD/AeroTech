@@ -1,0 +1,124 @@
+main{
+    text-align: center;
+    font-family: $font-family-regular;
+    h1{
+        color: white;
+        background-color: $colorprimario;
+        font-family: $font-family-bold;
+        font-size: 70px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    h2{
+        padding-top: 80px;
+        padding-bottom: 15px;
+        color: $colorsecundario;
+        font-size: 30px;
+    }
+    
+    h3{
+        padding-bottom: 50px;
+        color: $colortexto;
+        font-size: 16px;
+    }
+    .fondoLogo{
+        background-color: $colorprimario;
+    }
+    
+    .imagenLogo{
+        width: 100%;
+        padding: 90px;
+    }
+    .tituloIndex{
+        color: $colorsecundario;
+        font-family: $font-family-bold;
+        padding: 100px;
+        font-size: 50px;
+        background-color: white;
+    }
+    .imagenDrone{
+        width: 100%;
+    }
+    
+    .nosotrosVM{
+        background-color: #d6d5d5;
+        height: 25%;
+        margin: 20px;
+        padding: 20px;
+        text-align: justify;
+    }
+    
+    .imgVisionMision{
+        width: 100%;
+        text-align: center;
+        padding: 10px
+    }
+    
+    .bloque{
+        padding: 30px;
+    }
+    
+    .visionMision{
+        text-align: center;
+        font-family: $font-family-bold;
+        padding: 10px;
+    }
+    
+    .descripcionServicios{
+        padding: 50px;
+        color: $colortexto;
+        font-size: 30px;
+    }
+    
+    .nuestroEquipo{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 50px;
+    }
+    
+    .imgAgrast40{
+        width: 100%;
+    }
+    
+    .descripcionAgrast40{
+        text-align: left;
+        padding: 20px 0px;
+    }
+    .containerGaleria{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat (3, 100px);
+        column-gap: 10px;
+        row-gap: 10px;
+        grid-template-areas:
+        "uno uno uno"
+        "dos tres cuatro"
+        "cinco cinco cinco";
+    }
+    
+    .imagen1{
+        width: 100%;
+        grid-area: uno;
+    }
+    
+    .imagen2{
+        width: 100%;
+        grid-area: dos;
+    }
+    
+    .imagen3{
+        width: 100%;
+        grid-area: tres;
+    }
+    
+    .imagen4{
+        width: 100%;
+        grid-area: cuatro;
+    }
+    
+    .imagen5{
+        width: 100%;
+        grid-area: cinco;
+    }
+}

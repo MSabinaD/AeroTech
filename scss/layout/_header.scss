@@ -1,0 +1,51 @@
+header{
+    font-family: $font-family-regular;
+    background-color: $colorprimario;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    .logoHeader{
+        width: 200px;
+        margin-right: 200px;
+    }
+    
+    .navbarNav{
+        text-align: end;
+    }
+
+    .navBar{
+        display: flex;
+        align-items: end;
+    }
+
+
+
+    nav{
+        text-align: right;
+        padding: 50px;
+        
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: end;
+            
+            li {
+                display: inline;
+                padding-top: 20px ;
+                background-color:$colorprimario;
+                
+                a {
+                    text-decoration: none;
+                    color: white;
+                    padding: 10px 15px;
+                    margin: 10px;
+                    &:hover {               //USO DE &
+                        background-color: #ddd;
+                        color: black;
+                    }
+                } 
+            }
+        }
+    }
+}

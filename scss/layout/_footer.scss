@@ -1,0 +1,24 @@
+.footer1{
+    background-color: $colorprimario;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer2{
+    background-color: $colortexto;
+    color: white;
+    text-align: center;
+    font-family: $font-family-regular;
+    padding: 20px;
+}
+
+.imgFooter{
+    width: 40px;
+}
+
+.imgFooterLogo{
+    width: 140px;
+}
