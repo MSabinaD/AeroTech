@@ -5,7 +5,7 @@ main{
         color: white;
         background-color: $colorprimario;
         font-family: $font-family-bold;
-        font-size: 70px;
+        font-size: 50px;
         @include relleno(50px, 50px);
     }
     h2{
@@ -28,8 +28,8 @@ main{
     .tituloIndex{
         color: $colorsecundario;
         font-family: $font-family-bold;
-        padding: 100px;
-        font-size: 50px;
+        padding: 50px;
+        font-size: 30px;
         background-color: white;
     }
 
