@@ -6,16 +6,13 @@ main{
         background-color: $colorprimario;
         font-family: $font-family-bold;
         font-size: 70px;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        @include relleno(50px, 50px);
     }
     h2{
-        padding-top: 80px;
-        padding-bottom: 15px;
+        @include relleno(80px, 15px);
         color: $colorsecundario;
         font-size: 30px;
     }
-    
     h3{
         padding-bottom: 50px;
         color: $colortexto;
@@ -24,7 +21,6 @@ main{
     .fondoLogo{
         background-color: $colorprimario;
     }
-    
     .imagenLogo{
         width: 100%;
         padding: 90px;
@@ -36,10 +32,10 @@ main{
         font-size: 50px;
         background-color: white;
     }
+
     .imagenDrone{
         width: 100%;
     }
-    
     .nosotrosVM{
         background-color: #d6d5d5;
         height: 25%;
@@ -47,40 +43,33 @@ main{
         padding: 20px;
         text-align: justify;
     }
-    
     .imgVisionMision{
         width: 100%;
         text-align: center;
         padding: 10px
     }
-    
     .bloque{
         padding: 30px;
     }
-    
     .visionMision{
         text-align: center;
         font-family: $font-family-bold;
         padding: 10px;
     }
-    
     .descripcionServicios{
         padding: 50px;
         color: $colortexto;
         font-size: 30px;
     }
-    
     .nuestroEquipo{
         display: flex;
         flex-direction: column;
         align-items: start;
         margin-left: 50px;
     }
-    
     .imgAgrast40{
         width: 100%;
     }
-    
     .descripcionAgrast40{
         text-align: left;
         padding: 20px 0px;
@@ -96,29 +85,19 @@ main{
         "dos tres cuatro"
         "cinco cinco cinco";
     }
-    
     .imagen1{
-        width: 100%;
-        grid-area: uno;
+        @include area-grid (100%, uno);
     }
-    
     .imagen2{
-        width: 100%;
-        grid-area: dos;
+        @include area-grid (100%, dos);
     }
-    
     .imagen3{
-        width: 100%;
-        grid-area: tres;
+        @include area-grid (100%, tres);
     }
-    
     .imagen4{
-        width: 100%;
-        grid-area: cuatro;
+        @include area-grid (100%, cuatro);
     }
-    
     .imagen5{
-        width: 100%;
-        grid-area: cinco;
+        @include area-grid (100%, cinco);
     }
 }

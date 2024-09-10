@@ -1,85 +1,66 @@
 @media (max-width: 1300px){
 
-/*---NAV---*/    
-nav {
-    padding: 50px 0px;
-}
+                                /*---NAV---*/    
+    nav {
+        padding: 50px 0px;
+    }
+    li {
+        display: inline;
+        padding: 10px 0px ;
+    }
+    a {
+        padding: 10px 0px;
+    } 
+    .logoHeader{
+        width: 200px;
+        margin-right: 200px;
+    }
 
-li {
-    display: inline;
-    padding: 10px 0px ;
-}
-
-a {
-    padding: 10px 0px;
-} 
-
-.logoHeader{
-    width: 200px;
-    margin-right: 200px;
-}
-
-
-
-/*---MAIN---*/ 
-
-
-.tituloIndex {
-    font-size: 30px;
-}
-
-.descripcionServicios {
-    font-size: 18px;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-h2 {
-    font-size: 20px;
-}
+                                /*---MAIN---*/ 
+    .tituloIndex {
+        font-size: 30px;
+    }
+    .descripcionServicios {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 20px;
+    }
 }
 
 
 @media (max-width: 768px){
-.imagenLogo{
-    width: 100%;
-    padding: 25px;
-}
+    .imagenLogo{
+        width: 100%;
+        padding: 25px;
+    }
+    .logoHeader{
+        width: 200px;
+        margin-right: 0px;
+    }    
+    .tituloIndex {
+        font-size: 24px;
+    }
 
-.logoHeader{
-    width: 200px;
-    margin-right: 0px;
-}    
-
-.tituloIndex {
-    font-size: 24px;
-}
-    
-.descripcionServicios {
-    font-size: 16px;
-}
-    
-h1 {
-    font-size: 30px;
-}
-    
-    
-h2 {
-        font-size: 18px;
-}
-
-.imgFooter {
-        width: 20px;    
-}
-    
-.imgFooterLogo {
-        width: 70px;    
-}
-
-.botonEnviar{
-    width: 50%;
-}
-
+    .descripcionServicios {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 30px;
+    }    
+    h2 {
+            font-size: 18px;
+    }
+    .imgFooter {
+            width: 20px;    
+    } 
+    .imgFooterLogo {
+            width: 70px;    
+    }
+    .botonEnviar{
+        width: 50%;
+    }
 }

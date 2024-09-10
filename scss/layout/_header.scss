@@ -4,7 +4,12 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+
+    .navbar-toggler{
+        background-color: rgba(255, 255, 255, 0);
+        border-color: white;
+    }
+
     .logoHeader{
         width: 200px;
         margin-right: 200px;
@@ -19,22 +24,17 @@ header{
         align-items: end;
     }
 
-
-
     nav{
         text-align: right;
-        padding: 50px;
-        
+        padding: 50px;     
         ul {
             list-style: none;
             display: flex;
             justify-content: end;
-            
             li {
                 display: inline;
                 padding-top: 20px ;
                 background-color:$colorprimario;
-                
                 a {
                     text-decoration: none;
                     color: white;
